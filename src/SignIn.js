@@ -165,7 +165,6 @@ handleChangeMail = (event) => {                    //Cheking if inputed email is
             break;
           }
       }
-      alert('User was created')
       this.props.history.push('/');
     }
   };
